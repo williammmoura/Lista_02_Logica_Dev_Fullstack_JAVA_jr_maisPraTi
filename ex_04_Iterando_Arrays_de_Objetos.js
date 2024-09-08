@@ -21,6 +21,7 @@ const peopleArrayObjects = [
     }
 ]
 
+//Em cada iteração, a variável "information" recebe um objeto (neste caso, uma pessoa).
 for(let person of peopleArrayObjects){
     console.log(`Name: ${person.name}, Age: ${person.age}, City: ${person.city}`);
 }
